@@ -1,0 +1,32 @@
+#Target{
+	background-color: purple;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-family: "Times New Roman";
+}
+
+.hidden{
+	display: none;
+}
+
+img{
+	width:100%;
+}
+
+.container{
+	font-family: "Helvetica";
+	background-color: rgba(0,255,255,0.9)
+}
+
+body{
+	background-color: yellow;
+}
+
+input{
+	margin:10px;
+}
+
+.blackClass{
+	color: black;
+}
