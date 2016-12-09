@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bro3.js"></script>
+
 	<title>DW website</title>
 	<style >
 	.hidden{
@@ -14,17 +19,25 @@
 	</style>
 </head>
 <body>
-	<div id="pic1">
-		<img src="adl1z8_ngy-stacy-wyss.jpg">
+	<div id="Pictures">
+		<img id="pic1" src="adl1z8_ngy-stacy-wyss.jpg">
+	
+		<img id="pic2" class="hidden" src="picture2.jpg" >
 	</div>
-	<div id="pic2" class="hidden">
-		<img src="picture2.jpg">
-	</div>
+
 	<form id="Target">
 		Username:<input type="text" name="username"><br>
 		Password:<input type="text" name="password"><br>
 		<input type="checkbox" name="check"> Enable <br>
 		<input type="submit" value="Submit" disabled>
 	</form>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">Lorem ipsum</div>
+			<div class="col-xs-4">Lorem ipsum</div>
+			<div class="col-xs-4">Lorem ipsum</div>
+		</div>
+	</div>
 </body>
 </html>
